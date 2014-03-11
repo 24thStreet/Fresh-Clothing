@@ -1,0 +1,189 @@
+@font-face {
+  font-family: 'din';
+  src: url('../fonts/din_light-webfont.eot');
+  src: url('../fonts/din_light-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/din_light-webfont.woff') format('woff'), url('../fonts/din_light-webfont.ttf') format('truetype'), url('../fonts/din_light-webfont.svg#din_lightregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+body,
+html,
+ul {
+  margin: 0;
+  padding: 0;
+}
+.clearfix:after {
+  content: " ";
+  /* Older browser do not support empty content */
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
+}
+body {
+  font-family: "din";
+  font-size: 24px;
+  color: #0D0D0A;
+}
+.pull-left {
+  float: left;
+}
+.pull-right {
+  float: right;
+}
+.main-menu {
+  width: 100%;
+  background: #fff;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+.main-menu ul {
+  text-align: center;
+  list-style: none;
+  display: table;
+  margin: 0 auto;
+}
+.main-menu ul li {
+  float: left;
+  padding: 20px 30px;
+  border-top: 10px solid #fff;
+  transition: all .6s;
+}
+.main-menu ul li a {
+  display: block;
+  color: #231f20;
+  text-decoration: none;
+}
+.main-menu ul li:hover {
+  border-top: 10px solid #231f20;
+  transition: all .6s;
+}
+.main-menu img {
+  position: fixed;
+  left: 20px;
+  bottom: 25px;
+}
+.main-menu .active {
+  border-top: 10px solid #231f20;
+}
+.menu-grey {
+  background: #fff6f7;
+}
+.menu-grey ul li {
+  border-top: 10px solid #fff6f7;
+}
+#logo24street {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+}
+.f05 {
+  display: block;
+  margin: 0 auto;
+  margin-top: 20%;
+}
+#bg {
+  z-index: -1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
+}
+.homewrapper {
+  position: absolute;
+  top: 80px;
+  right: 80px;
+}
+.home {
+  width: 400px;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+}
+.home h1 {
+  margin: 0;
+}
+.home p {
+  font-size: 18px;
+}
+.mtop {
+  margin-top: 50px;
+}
+.brandswrapper {
+  position: absolute;
+  top: 220px;
+  right: 80px;
+}
+.brand {
+  width: 280px;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  float: left;
+}
+.brand ul {
+  list-style: none;
+  padding-left: 20px;
+  padding-top: 20px;
+  margin-bottom: 10px;
+  height: 260px;
+  border-bottom: 1px solid #231f20;
+}
+.brand ul li {
+  padding-bottom: 20px;
+}
+.brand a {
+  padding-left: 20px;
+  color: #231f20;
+  font-size: 18px;
+  text-decoration: none;
+}
+.brand a:before {
+  padding-top: 1px;
+  content: url(../img/mail.png);
+}
+.brand a:hover {
+  text-decoration: underline;
+}
+.m-right {
+  margin-right: 50px;
+}
+/* Fadein on pageload */
+body {
+  animation: fadein 1s ease;
+  -moz-animation: fadein 1s ease;
+  -webkit-animation: fadein 1s ease;
+  -o-animation: fadein 1s ease;
+}
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-moz-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-o-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
